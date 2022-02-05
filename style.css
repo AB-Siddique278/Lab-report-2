@@ -1,0 +1,459 @@
+body{
+    
+    margin: 0;
+}
+
+
+/*******************************Nav section***********/
+nav{
+    height: 80px;
+    background-color: whitesmoke;
+
+}
+.nav-bar{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px;
+
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .logo p{
+    font-size: 24px;
+}
+
+.nav-bar .menu ul li{
+    list-style: none;
+    margin-right: 40px;
+    font-family: poppins;
+}
+.nav-bar .menu ul li:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in;
+}
+.nav-bar .menu ul{
+    display: flex;
+}
+
+.nav-bar .menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+    
+h1{
+    font-size: 60px;
+    font-family: Bebas Neue;
+}
+.title{
+    border-left: 5px solid orangered ;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+    
+}
+
+.scroll{
+    margin-top: 99px;
+    
+}
+p, h4, h2, h3{
+    font-family: poppins;
+}
+.flex-content{
+display: flex;
+}
+
+.name{
+color: orangered;
+font-family:Bebas Neue;
+}
+
+.half-width{
+width: 50%;
+padding-left: 5%;
+
+}
+
+.half-width img{
+width: 75%;
+padding: 7%;
+}
+.link{
+text-decoration: none;
+background: linear-gradient(45deg, lightsalmon, tomato);
+color: white;
+padding: 10px 40px;
+border-radius: 5px;
+
+}
+.well-section{
+background-image: url("images/shapes/top-banner.png");
+background-repeat: no-repeat;
+}
+
+/*mission section */
+
+.miss-title{
+    text-align: center;
+}
+
+.box-title{
+    font-size:20px;
+}
+.miss-box-text{
+    text-align: justify;
+}
+.mission{
+    margin-top: 5%;
+    height: 40em;
+    margin-bottom: 10%;
+}
+
+.mission-box{
+    width: 25%;
+    padding: 10px;;
+    box-shadow: rgb(128, 128, 128, 0.42) 5px 5px 20px;
+    float:left;
+    margin: 29px;
+    border-radius: 10px;
+    
+}
+.content{
+    margin: 3% 0%;
+    margin-left: 10%;
+    
+    
+}
+.mission-img img{
+    width: 70%;
+}
+
+#box-1{
+    background-color:aqua;
+}
+
+#box-2{
+    background-color:aquamarine;
+}
+
+#box-3{
+    background-color:antiquewhite;
+}
+
+/* Know our team section*/
+
+.team-area{
+    background-image: url("images/shapes/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 4%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+   
+}
+.Develop-title{
+    font-size: 50px;
+}
+
+/*Business section */
+
+.business-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 4%;
+    padding-right: 10%;
+    background-size:25%;
+    margin-bottom: 5%;
+    
+    
+}
+
+
+/*scirvice section*/
+
+
+.Service{
+    width: 329px;
+    height: 250px;
+    background-color:whitesmoke;
+    padding: 10px;
+    margin: 3%;
+    
+    border-radius: 10px;
+    box-shadow: rgb(128, 128, 128, 0.42) 5px 5px 20px;
+    text-align: center;
+   
+    
+    
+}
+
+.container{
+    
+    margin: 10%;
+    
+}
+
+.all-Service{
+    display: grid;
+   
+    grid-template-columns: repeat(3, 2fr);
+
+}
+.Service-logo{
+    font-size: 45px;
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Skill section */
+
+.skill-area{
+    
+    margin-left: 4%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-image: url(images/shapes/dots-3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 36%;
+    
+    
+    
+}
+
+.skill-content{
+    width: 100%;
+    background-color: gainsboro;
+}
+.skill{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.html{
+    width: 90%;
+    background-color: aquamarine;
+}
+.css{
+    width: 85%;
+    background-color: palegreen;
+}
+.javascript{
+    width: 80%;
+    background-color: tomato;
+}
+.nodejs{
+    width: 75%;
+    background-color: sandybrown;
+}
+#my-skill{
+    padding-left:10%;
+}
+.skill-font{
+    font-weight: bold;
+}
+
+
+/********************************product section***********************/
+
+.product-banner:hover img{
+    transform: scale(1.5);
+    transition: transform 1s ease-in-out ;
+}
+
+.product .product-banner img{
+    width: 320px;
+    height: 256px;
+    
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.all-Products{
+    display: grid;
+   
+    grid-template-columns: repeat(3, 1fr);
+}
+.product{
+    width: 329px;
+    height: 476px;
+    background-color:whitesmoke;
+    padding: 10px;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: rgb(128, 128, 128, 0.42) 5px 5px 20px;
+   
+    
+    
+}
+
+.container{
+    
+    margin: 10%;
+    
+}
+.product-header-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.product{
+     
+    padding-left: 4%;
+    
+}
+.all-Products{
+    margin-right: -7%;
+
+}
+
+.next-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
+.last-boutton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*****************************contact************/
+
+.contact-title{
+    font-size: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightslategray;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightslategray;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+  .contact-box{
+    border-radius: 5px;
+    background-color: white;
+    
+  }
+
+  .contact-column{
+
+
+  
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+
+}
+
+.contact-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .contact-row{
+      display: flex;
+  }
+
+  .contact-info{
+      text-align: center;
+  }
+
+  .contact-box{
+      padding-left: 10%;
+      padding-right: 10%;
+
+  }
+
+  .contact-column img{
+    height: 400px;
+     
+  }
+  .submit{
+      background-color: tomato;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    padding: 15px ;
+    border-radius: 10px;
+
+  }
+
+/*footer*/
+
+.footer{
+    
+    
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.icon i{
+    padding: 10px;
+    
+
+}
+.icon{
+    font-size: 1.5em;
+}
